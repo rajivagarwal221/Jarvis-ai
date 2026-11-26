@@ -5,3 +5,7 @@ webui-env/
 *.env
 __pycache__/
 *.pyc
+node_modules/
+.env
+!.env.example
+*.log
