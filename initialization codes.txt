@@ -1,4 +1,5 @@
-$env:OLLAMA_ORIGINS = "*"
+# Only allow local pages to call Ollama ("*" lets any website you visit use it)
+$env:OLLAMA_ORIGINS = "http://localhost:*,http://127.0.0.1:*"
 ollama serve
 
 openclaw gateway
